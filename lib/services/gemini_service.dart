@@ -1,86 +1,43 @@
-import 'dart:convert';
-import 'package:http/http.dart' as http;
+import 'package:google_generative_ai/google_generative_ai.dart';
 import '../models/message.dart';
+import '../config/api_keys.dart';
 
-class GroqService {
-  // Clé API Groq pour l'assistant IA
-  static const String _apiKey = "";
-  static const String _endpoint =
-      'https://api.groq.com/openai/v1/chat/completions';
-  static const String _model = 'llama-3.3-70b-versatile';
+class GeminiService {
+  static const String _modelName = 'gemini-1.5-flash';
 
   static Future<String> sendMessage(
     String message,
     List<Message> history,
   ) async {
-    if (_apiKey.isEmpty) {
-      return 'Erreur: Clé API Groq non configurée. Ajoutez --dart-define=GROQ_API_KEY=votre_clé lors du build.';
-    }
-    try {
-      final messages = <Map<String, String>>[
-        {'role': 'system', 'content': _buildSystemPrompt()},
-        ...history.map(
-          (m) => {
-            'role': m.isUser ? 'user' : 'assistant',
-            'content': m.content,
-          },
-        ),
-        {'role': 'user', 'content': message},
-      ];
+    final apiKey = ApiKeys.geminiApiKey;
 
-      final response = await http.post(
-        Uri.parse(_endpoint),
-        headers: {
-          'Authorization': 'Bearer $_apiKey',
-          'Content-Type': 'application/json',
-        },
-        body: jsonEncode({
-          'model': _model,
-          'messages': messages,
-          'temperature': 0.7,
-          'max_tokens': 1024,
-        }),
+    if (apiKey == 'VOTRE_CLE_GEMINI_ICI' || apiKey.isEmpty) {
+      return 'Erreur: Clé API Gemini non configurée. Veuillez ajouter votre clé dans lib/config/api_keys.dart';
+    }
+
+    try {
+      final model = GenerativeModel(
+        model: _modelName,
+        apiKey: apiKey,
+        systemInstruction: Content.system(_buildSystemPrompt()),
       );
 
-      if (response.statusCode == 200) {
-        final data = jsonDecode(response.body);
-        final choices = data['choices'] as List?;
-        if (choices != null && choices.isNotEmpty) {
-          return choices[0]['message']['content'] ?? 'Pas de réponse';
-        }
-        return 'Pas de réponse';
-      } else {
-        final error = jsonDecode(response.body);
-        return 'Erreur: ${error['error']['message'] ?? response.statusCode}';
-      }
+      // Convert history to Gemini format
+      final chatHistory = history.map((m) {
+        return m.isUser
+            ? Content.text(m.content)
+            : Content.model([TextPart(m.content)]);
+      }).toList();
+
+      final chat = model.startChat(history: chatHistory);
+      final response = await chat.sendMessage(Content.text(message));
+
+      return response.text ?? 'Pas de réponse';
     } catch (e) {
       if (e.toString().contains('Failed host lookup') || e.toString().contains('SocketException')) {
         return 'Erreur de connexion: Impossible de joindre le serveur. Vérifiez votre connexion internet.';
       }
-      return 'Erreur de connexion: $e';
-    }
-  }
-
-  static Future<bool> testConnection() async {
-    if (_apiKey.isEmpty) return false;
-    try {
-      final response = await http.post(
-        Uri.parse(_endpoint),
-        headers: {
-          'Authorization': 'Bearer $_apiKey',
-          'Content-Type': 'application/json',
-        },
-        body: jsonEncode({
-          'model': _model,
-          'messages': [
-            {'role': 'user', 'content': 'Bonjour'},
-          ],
-          'max_tokens': 10,
-        }),
-      );
-      return response.statusCode == 200;
-    } catch (e) {
-      return false;
+      return 'Erreur avec Gemini: $e';
     }
   }
 
@@ -143,14 +100,6 @@ Si on te demande qui a développé GEOCOURS, réponds :
 - Minéralogie
 - Pétrologie
 - Roches Métamorphiques
-
-=== STYLES DE RÉPONSE DISPONIBLES ===
-L'utilisateur peut choisir comment tu réponds :
-- "Amical" : Réponds de façon chaleureuse et encourageante
-- "Concis" : Réponses courtes et directes
-- "Direct" : Va droit au but sans fioritures
-- "Détaillé" : Explications approfondies avec exemples
-- "Pédagogique" : Explique comme à un débutant
 
 Sois précis et éducatif dans tes réponses. Tu connais le contenu détaillé de chaque cours. Quand on te pose une question sur un professeur, un emploi du temps, ou la navigation dans l'app, utilise les informations ci-dessus. Réponds toujours en français sauf si on te demande autrement.
 ''';

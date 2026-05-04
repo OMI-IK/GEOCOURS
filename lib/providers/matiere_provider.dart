@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
 import '../models/matiere.dart';
 import '../services/excel_service.dart';
@@ -63,12 +62,17 @@ class MatiereProvider extends ChangeNotifier {
     try {
       final savedMatieres = await StorageService.getMatieres();
 
-      // Check if saved data has content; if not, reload defaults
+      // Check if saved data has content and valid professor names
       final hasContent =
           savedMatieres.isNotEmpty &&
           savedMatieres.any((m) => m.contenu.isNotEmpty);
 
-      if (hasContent) {
+      // Also check if professor names are valid (not generic "Professeur")
+      final hasValidProfessors = savedMatieres.every(
+        (m) => m.professeur != 'Professeur' && m.professeur.isNotEmpty,
+      );
+
+      if (hasContent && hasValidProfessors) {
         _matieres = savedMatieres;
         _isLoading = false;
         notifyListeners();
@@ -118,12 +122,12 @@ class MatiereProvider extends ChangeNotifier {
           );
         }
       } else {
-        _loadDefaultMatieres();
+        await _loadDefaultMatieres();
       }
 
       await StorageService.saveMatieres(_matieres);
     } catch (e) {
-      _loadDefaultMatieres();
+      await _loadDefaultMatieres();
     }
   }
 

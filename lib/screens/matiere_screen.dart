@@ -45,6 +45,11 @@ class _MatiereScreenState extends State<MatiereScreen>
     super.initState();
     _parseChapters();
     _tabController = TabController(length: _chapters.length + 1, vsync: this);
+    _tabController.addListener(() {
+      if (!_tabController.indexIsChanging) {
+        setState(() {});
+      }
+    });
     _markAsRead();
   }
 
@@ -185,26 +190,20 @@ class _MatiereScreenState extends State<MatiereScreen>
             ),
           ),
 
-          // Content
+          // Content - show only selected tab
           SliverPadding(
             padding: const EdgeInsets.all(16),
             sliver: SliverList(
-              delegate: SliverChildBuilderDelegate((context, index) {
-                if (index == 0) {
-                  // Overview tab content
-                  return _buildOverviewTab(theme, color);
-                }
-                // Chapter tab content
-                final chapterIndex = index - 1;
-                if (chapterIndex < _chapters.length) {
-                  return _buildChapterTab(
+              delegate: SliverChildListDelegate([
+                if (_tabController.index == 0)
+                  _buildOverviewTab(theme, color)
+                else if (_tabController.index - 1 < _chapters.length)
+                  _buildChapterTab(
                     theme,
                     color,
-                    _chapters[chapterIndex],
-                  );
-                }
-                return const SizedBox.shrink();
-              }, childCount: _chapters.length + 1),
+                    _chapters[_tabController.index - 1],
+                  ),
+              ]),
             ),
           ),
         ],
@@ -336,6 +335,8 @@ class _MatiereScreenState extends State<MatiereScreen>
   Widget _buildFormattedContent(ThemeData theme, Color color, String content) {
     final lines = content.split('\n');
     final List<Widget> contentWidgets = [];
+
+    final Set<String> insertedIllustrations = {};
 
     for (var line in lines) {
       line = line.trim();
@@ -502,42 +503,45 @@ class _MatiereScreenState extends State<MatiereScreen>
         );
       }
 
-      // Insert illustrations and images based on content
+      // Insert illustrations based on content (with deduplication)
       final lowerLine = line.toLowerCase();
-      if (lowerLine.contains('cycle de l\'eau') ||
-          lowerLine.contains('cycle hydrologique')) {
+      if ((lowerLine.contains('cycle de l\'eau') ||
+              lowerLine.contains('cycle hydrologique')) &&
+          !insertedIllustrations.contains('water_cycle')) {
+        insertedIllustrations.add('water_cycle');
         contentWidgets.add(
           const Padding(
             padding: EdgeInsets.symmetric(vertical: 10),
             child: WaterCycleDiagram(),
           ),
         );
-      }
-      if (lowerLine.contains('changement de phase') ||
-          (lowerLine.contains('évaporation') &&
-              lowerLine.contains('condensation'))) {
+      } else if ((lowerLine.contains('changement de phase') ||
+              (lowerLine.contains('évaporation') &&
+                  lowerLine.contains('condensation'))) &&
+          !insertedIllustrations.contains('phase_change')) {
+        insertedIllustrations.add('phase_change');
         contentWidgets.add(
           const Padding(
             padding: EdgeInsets.symmetric(vertical: 10),
             child: PhaseChangeDiagram(),
           ),
         );
-      }
-      if (lowerLine.contains('répartition') && lowerLine.contains('eau')) {
+      } else if (lowerLine.contains('répartition') &&
+          lowerLine.contains('eau') &&
+          !insertedIllustrations.contains('water_distribution')) {
+        insertedIllustrations.add('water_distribution');
         contentWidgets.add(
           const Padding(
             padding: EdgeInsets.symmetric(vertical: 10),
             child: WaterDistributionTable(),
           ),
         );
-      }
-      // PDF images
-      final pdfImage = CourseImageInserter(lineText: line);
-      if (pdfImage.runtimeType != SizedBox) {
+      } else if (CourseImageInserter.hasMatchingImage(line)) {
+        // Only insert PDF image if no illustration was already added for this line
         contentWidgets.add(
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 6),
-            child: pdfImage,
+            child: CourseImageInserter(lineText: line),
           ),
         );
       }

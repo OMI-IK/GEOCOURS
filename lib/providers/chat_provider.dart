@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/message.dart';
 import '../models/conversation.dart';
-import '../services/groq_service.dart';
+import '../services/gemini_service.dart';
 import '../services/storage_service.dart';
 
 class ChatProvider extends ChangeNotifier {
@@ -115,7 +115,7 @@ class ChatProvider extends ChangeNotifier {
     }
 
     try {
-      final response = await GroqService.sendMessage(
+      final response = await GeminiService.sendMessage(
         content,
         activeConversation!.messages,
       );

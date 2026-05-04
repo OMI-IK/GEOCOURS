@@ -62,6 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
           quizScore: _totalQuizScore,
           quizMax: _totalQuizMax,
           matieresRead: _quizCompleted,
+          onNavigateToIA: () => setState(() => _currentIndex = 2),
         ),
         const _CoursPage(),
         const ChatScreen(),
@@ -165,12 +166,14 @@ class _AccueilPage extends StatelessWidget {
   final int quizScore;
   final int quizMax;
   final int matieresRead;
+  final VoidCallback? onNavigateToIA;
 
   const _AccueilPage({
     this.userName,
     this.quizScore = 0,
     this.quizMax = 0,
     this.matieresRead = 0,
+    this.onNavigateToIA,
   });
 
   @override
@@ -335,7 +338,7 @@ class _AccueilPage extends StatelessWidget {
                     icon: Icons.smart_toy,
                     label: 'Assistant IA',
                     color: theme.colorScheme.tertiary,
-                    onTap: () {},
+                    onTap: () => onNavigateToIA?.call(),
                   ),
                 ),
                 const SizedBox(width: 12),

@@ -128,6 +128,32 @@ class CourseImageInserter extends StatelessWidget {
 
   const CourseImageInserter({super.key, required this.lineText});
 
+  /// Check if the given line text has a matching image without building the widget
+  static bool hasMatchingImage(String lineText) {
+    final lower = lineText.toLowerCase();
+    return lower.contains('coupe de la terre') ||
+        lower.contains('structure interne') ||
+        lower.contains('cycle de l\'eau') ||
+        lower.contains('cycle hydrologique') ||
+        lower.contains('atmosphère') ||
+        lower.contains('érosion') ||
+        lower.contains('altération') ||
+        lower.contains('transport') ||
+        lower.contains('sédiment') ||
+        lower.contains('bassin versant') ||
+        lower.contains('rivière') ||
+        lower.contains('fleuve') ||
+        lower.contains('nappe') ||
+        lower.contains('souterraine') ||
+        lower.contains('glacier') ||
+        lower.contains('vent') ||
+        lower.contains('delta') ||
+        lower.contains('récif') ||
+        lower.contains('corail') ||
+        lower.contains('dune') ||
+        lower.contains('volcan');
+  }
+
   @override
   Widget build(BuildContext context) {
     final lower = lineText.toLowerCase();
