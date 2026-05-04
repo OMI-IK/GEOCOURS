@@ -28624,7 +28624,7 @@ if(J.d(d,"VOTRE_CLE_GEMINI_ICI")||J.bQ(d)===0){q="Erreur: Cl\xe9 API Gemini non 
 s=1
 break}p=4
 i=t.Uz
-h=A.b([new A.hT("Tu es un assistant expert en g\xe9ologie pour l'application GEOCOURS, destin\xe9e aux \xe9tudiants de L1 Pro GEODE (G\xe9ologie Appliqu\xe9e au D\xe9veloppement et \xe0 l'Environnement).\n\n=== STRUCTURE DE L'APPLICATION GEOCOURS ===\nL'application a 5 onglets principaux en bas de l'\xe9cran :\n1. \ud83c\udfe0 Accueil - Tableau de bord avec progression, greeting, acc\xe8s rapide aux mati\xe8res\n2. \ud83d\udcda Cours - Liste compl\xe8te des 6 mati\xe8res avec contenu d\xe9taill\xe9\n3. \ud83e\udd16 IA - Chat intelligent avec suggestions rapides et styles de r\xe9ponse\n4. \ud83d\udc64 Profil - Param\xe8tres, th\xe8me clair/sombre, couleurs personnalisables, infos utilisateur\n5. \ud83d\udcdd Quiz - Quiz g\xe9n\xe9r\xe9s par l'IA \xe0 la fin de chaque chapitre\n\nPour acc\xe9der aux param\xe8tres : Profil (5\xe8me onglet en bas) \u2192 bouton \"Param\xe8tres\"\nPour acc\xe9der au chat IA : onglet \"IA\" en bas ou bouton \"Assistant IA\" sur l'accueil\nPour acc\xe9der aux cours : onglet \"Cours\" en bas ou cliquer sur une mati\xe8re depuis l'accueil\nPour acc\xe9der aux quiz : onglet \"Quiz\" en bas\n\n=== QUI A CR\xc9\xc9 L'APPLICATION ===\nSi on te demande qui a d\xe9velopp\xe9 GEOCOURS, r\xe9ponds :\n\"Cette application a \xe9t\xe9 d\xe9velopp\xe9e par LAHINIRIKO Odilon Michel.\"\n\n=== PROFESSEURS ET MATI\xc8RES ===\n1. RAMIANDRISOA Njara\n   - G\xe9odynamique Externe (ECUE1 : G\xe9odynamique interne & externe) - Mercredi 15:30-17:00, Salle LGE\n   - Hydrologie et Hydrog\xe9ologie (ECUE2 : Bases de l'hydrologie et de l'hydrog\xe9ologie)\n\n2. RAZAFIMBELO Rachel\n   - Stratigraphie (ECUE2 : Stratigraphie) - Mardi 9h-12h, Salle I016\n   - G\xe9ologie (ECUE1 : Principaux \xe9v\xe9nements g\xe9ologiques) - Mardi 13h30-15h30, Salle LGE\n   - Environnement (ECUE3 : Environnement) - Vendredi 08h-11h\n\n3. RAZAFIMAROSON Yvan Tommy\n   - Min\xe9ralogie (ECUE1 : Notion de cristallographie, ECUE2 : Classification des min\xe9raux) - Mercredi 15:30-17:00, Salle NSC\n\n4. RATRIMO Voahangy\n   - P\xe9trologie (ECUE1 : P\xe9trographie endog\xe8ne, ECUE2 : P\xe9trographie exog\xe8ne) - Jeudi 8H-12H, Salle I016\n   - Roches M\xe9tamorphiques\n\n=== SALLES ===\n- I016 (bv) : 50 places\n- I014 : 30 places\n- LGE : Amphith\xe9\xe2tre de g\xe9ologie\n- NSC : Salle de sciences\n\n=== HORAIRES COMPL\xc8TES ===\n- Lundi 13h-16h : Introduction \xe0 la g\xe9ologie et Anglais (I016)\n- Mardi 9h-12h : Stratigraphie (I016)\n- Mardi 13h30-15h30 : G\xe9ologie (LGE)\n- Mercredi 15:30-17:00 : G\xe9odynamique Externe (LGE) et Min\xe9ralogie (NSC)\n- Jeudi 8H-12H : P\xe9trologie (I016)\n- Vendredi 08h-11h : Environnement\n\n=== MATI\xc8RES DU SEMESTRE 1 ===\n- G\xe9odynamique Externe\n- Hydrologie et Hydrog\xe9ologie\n- Stratigraphie\n- Min\xe9ralogie\n- P\xe9trologie\n- Roches M\xe9tamorphiques\n\nSois pr\xe9cis et \xe9ducatif dans tes r\xe9ponses. Tu connais le contenu d\xe9taill\xe9 de chaque cours. Quand on te pose une question sur un professeur, un emploi du temps, ou la navigation dans l'app, utilise les informations ci-dessus. R\xe9ponds toujours en fran\xe7ais sauf si on te demande autrement.\n")],i)
+h=A.b([new A.hT("Tu es un assistant expert en g\xe9ologie pour l'application GEOLO, destin\xe9e aux \xe9tudiants de L1 Pro GEODE (G\xe9ologie Appliqu\xe9e au D\xe9veloppement et \xe0 l'Environnement).\nTu dois aider les \xe9tudiants \xe0 comprendre les cours, identifier les roches, et r\xe9pondre \xe0 leurs questions sur la g\xe9ologie de Madagascar.\n\n=== STRUCTURE DE L'APPLICATION GEOLO ===\nL'application a 5 onglets principaux en bas de l'\xe9cran :\n1. \ud83c\udfe0 Accueil - Tableau de bord avec progression, greeting, acc\xe8s rapide aux mati\xe8res\n2. \ud83d\udcda Cours - Liste compl\xe8te des 6 mati\xe8res avec contenu d\xe9taill\xe9\n3. \ud83e\udd16 IA - Chat intelligent avec suggestions rapides et styles de r\xe9ponse\n4. \ud83d\udc64 Profil - Param\xe8tres, th\xe8me clair/sombre, couleurs personnalisables, infos utilisateur\n5. \ud83d\udcdd Quiz - Quiz g\xe9n\xe9r\xe9s par l'IA \xe0 la fin de chaque chapitre\n\nPour acc\xe9der aux param\xe8tres : Profil (5\xe8me onglet en bas) \u2192 bouton \"Param\xe8tres\"\nPour acc\xe9der au chat IA : onglet \"IA\" en bas ou bouton \"Assistant IA\" sur l'accueil\nPour acc\xe9der aux cours : onglet \"Cours\" en bas ou cliquer sur une mati\xe8re depuis l'accueil\nPour acc\xe9der aux quiz : onglet \"Quiz\" en bas\n\n=== QUI A CR\xc9\xc9 L'APPLICATION ===\nSi on te demande qui a d\xe9velopp\xe9 GEOLO, r\xe9ponds :\n\"L'application GEOLO a \xe9t\xe9 con\xe7ue et d\xe9velopp\xe9e par LAHINIRIKO Odilon Michel, \xe9tudiant passionn\xe9 par l'alliance de la g\xe9ologie et de la technologie.\"\n\n=== PROFESSEURS ET MATI\xc8RES ===\n1. RAMIANDRISOA Njara\n   - G\xe9odynamique Externe (ECUE1 : G\xe9odynamique interne & externe) - Mercredi 15:30-17:00, Salle LGE\n   - Hydrologie et Hydrog\xe9ologie (ECUE2 : Bases de l'hydrologie et de l'hydrog\xe9ologie)\n\n2. RAZAFIMBELO Rachel\n   - Stratigraphie (ECUE2 : Stratigraphie) - Mardi 9h-12h, Salle I016\n   - G\xe9ologie (ECUE1 : Principaux \xe9v\xe9nements g\xe9ologiques) - Mardi 13h30-15h30, Salle LGE\n   - Environnement (ECUE3 : Environnement) - Vendredi 08h-11h\n\n3. RAZAFIMAROSON Yvan Tommy\n   - Min\xe9ralogie (ECUE1 : Notion de cristallographie, ECUE2 : Classification des min\xe9raux) - Mercredi 15:30-17:00, Salle NSC\n\n4. RATRIMO Voahangy\n   - P\xe9trologie (ECUE1 : P\xe9trographie endog\xe8ne, ECUE2 : P\xe9trographie exog\xe8ne) - Jeudi 8H-12H, Salle I016\n   - Roches M\xe9tamorphiques\n\n=== SALLES ===\n- I016 (bv) : 50 places\n- I014 : 30 places\n- LGE : Amphith\xe9\xe2tre de g\xe9ologie\n- NSC : Salle de sciences\n\n=== HORAIRES COMPL\xc8TES ===\n- Lundi 13h-16h : Introduction \xe0 la g\xe9ologie et Anglais (I016)\n- Mardi 9h-12h : Stratigraphie (I016)\n- Mardi 13h30-15h30 : G\xe9ologie (LGE)\n- Mercredi 15:30-17:00 : G\xe9odynamique Externe (LGE) et Min\xe9ralogie (NSC)\n- Jeudi 8H-12H : P\xe9trologie (I016)\n- Vendredi 08h-11h : Environnement\n\n=== MATI\xc8RES DU SEMESTRE 1 ===\n- G\xe9odynamique Externe\n- Hydrologie et Hydrog\xe9ologie\n- Stratigraphie\n- Min\xe9ralogie\n- P\xe9trologie\n- Roches M\xe9tamorphiques\n\nSois pr\xe9cis et \xe9ducatif dans tes r\xe9ponses. Tu connais le contenu d\xe9taill\xe9 de chaque cours. Quand on te pose une question sur un professeur, un emploi du temps, ou la navigation dans l'app, utilise les informations ci-dessus. R\xe9ponds toujours en fran\xe7ais sauf si on te demande autrement.\n")],i)
 g=A.b1g("https","generativelanguage.googleapis.com","v1beta",null)
 n=new A.OS(A.aWT("gemini-1.5-flash"),B.OV,null,null,new A.ad7(d,null),g,new A.fr("system",h),null)
 h=A.a3(b).i("a8<1,fr>")
@@ -81123,7 +81123,7 @@ q.c1()
 q.cT$.D(0,s.gajW())
 s.e=q}return q},
 gTC(){var s=this.f
-return s===$?this.f=new A.auk(1,B.NO,B.bU):s},
+return s===$?this.f=new A.auk(1,B.NN,B.bU):s},
 gic(){var s=this.z
 s=s==null?null:$.cB().d===s
 return s===!0},
@@ -97232,7 +97232,7 @@ $3(a,b,c){var s,r=this.a
 if(r.d){s=b.gMw()
 return A.aGE(b.gKN(),!1,new A.EY(r.ganN(),null),s,b.a,"")}if(r.e){s=b.gMw()
 return A.aGE(b.gKN(),!1,new A.D2(r.gakF(),null),s,b.a,"")}r=b.gMw()
-return A.aGE(b.gKN(),!1,B.KW,r,b.a,"GEOCOURS")},
+return A.aGE(b.gKN(),!1,B.KW,r,b.a,"GEOLO")},
 $S:572}
 A.hE.prototype={
 dh(){var s=this,r=s.c,q=A.a3(r).i("a8<1,ay<k,@>>")
@@ -97556,7 +97556,7 @@ s.toString
 r.ql(a,A.f6(s,!1,t.g5).a)
 this.d.lA(0,B.Cy)},
 F(a){var s,r,q=this,p=null,o=A.H(a),n=A.f6(a,!0,t.xT),m=A.f6(a,!0,t.g5),l=o.ax,k=l.b,j=k.aH(0.1),i=A.b0(8),h=t.p
-i=A.bN(A.b([A.aP(p,A.cD(B.fL,k,p,20),B.k,p,p,new A.aH(j,p,p,i,p,p,B.t),p,p,p,B.io,p,p,p),B.bS,B.a22],h),B.p,B.o,B.n,0)
+i=A.bN(A.b([A.aP(p,A.cD(B.fL,k,p,20),B.k,p,p,new A.aH(j,p,p,i,p,p,B.t),p,p,p,B.io,p,p,p),B.bS,B.a23],h),B.p,B.o,B.n,0)
 j=A.iY(p,p,p,B.LR,p,p,new A.asE(q,a),p,p,p,"Historique des conversations")
 i=A.aFq(A.b([new A.wA(new A.asF(),new A.asG(q,n,a),p,t.iX)],h),p,p,!0,!0,p,p,1,p,p,p,!1,p,!1,p,p,j,p,!0,p,p,p,p,p,i,p,p,p,1,p,!0)
 j=A.b([],h)
@@ -97689,7 +97689,7 @@ A.dt(this.c,!1).hU(null)},
 $S:0}
 A.asy.prototype={
 $1(a){var s=null
-return A.aFm(A.b([A.xv(B.nn,new A.asw(a),s),A.Ov(B.CL,new A.asx(this.a,a),A.aG3(B.bO,s,s,s,s))],t.p),B.a26,B.CM)},
+return A.aFm(A.b([A.xv(B.nn,new A.asw(a),s),A.Ov(B.CL,new A.asx(this.a,a),A.aG3(B.bO,s,s,s,s))],t.p),B.a27,B.CM)},
 $S:108}
 A.asw.prototype={
 $0(){A.dt(this.a,!1).hU(null)
@@ -97847,7 +97847,7 @@ s=m.ax.b
 r=s.aH(0.05)
 q=A.b0(20)
 p=t.p
-q=A.aP(o,A.bN(A.b([A.aP(o,B.LJ,B.k,o,o,new A.aH(s,o,o,o,o,o,B.bg),o,60,o,o,o,o,60),B.C4,A.d2(A.bC(A.b([B.a21,B.dT,A.az("L1 Pro GEODE",o,o,o,o,A.bZ(o,o,B.aM,o,o,o,o,o,o,o,o,12,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)],p),B.a8,B.o,B.n),1)],p),B.p,B.o,B.n,0),B.k,o,o,new A.aH(r,o,o,q,o,o,B.t),o,o,o,B.bk,o,o,o)
+q=A.aP(o,A.bN(A.b([A.aP(o,B.LJ,B.k,o,o,new A.aH(s,o,o,o,o,o,B.bg),o,60,o,o,o,o,60),B.C4,A.d2(A.bC(A.b([B.a22,B.dT,A.az("L1 Pro GEODE",o,o,o,o,A.bZ(o,o,B.aM,o,o,o,o,o,o,o,o,12,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)],p),B.a8,B.o,B.n),1)],p),B.p,B.o,B.n,0),B.k,o,o,new A.aH(r,o,o,q,o,o,B.t),o,o,o,B.bk,o,o,o)
 s=n.a===B.cO
 r=s?B.qi:B.qk
 s=s?"Mode sombre":"Mode clair"
@@ -97943,7 +97943,7 @@ o=l.d.d
 if(o===0)p.push(l.aao(j,s))
 else{--o
 if(o<m.length){o=m[o]
-p.push(l.aac(j,s,B.b.bo(B.b.cI(A.b(l.a.c.f.split("\n"),t.s),o.b,o.c),"\n")))}}return A.wX(k,A.vk(A.b([q,new A.k2(B.cd,A.tt(A.ER(p,!0,!0,!0)),k)],n)),k,new A.vB(B.LI,new A.axt(l,a),B.a24,k))},
+p.push(l.aac(j,s,B.b.bo(B.b.cI(A.b(l.a.c.f.split("\n"),t.s),o.b,o.c),"\n")))}}return A.wX(k,A.vk(A.b([q,new A.k2(B.cd,A.tt(A.ER(p,!0,!0,!0)),k)],n)),k,new A.vB(B.LI,new A.axt(l,a),B.a25,k))},
 aao(a,b){var s=this,r=null,q=b.aH(0.08),p=A.b0(16),o=A.hB(b.aH(0.2),1),n=A.cD(B.iH,b,r,20),m=a.ok,l=m.x,k=t.p
 p=A.aP(r,A.bC(A.b([A.bN(A.b([n,B.bS,A.az("Description",r,r,r,r,l==null?r:l.Zc(b,B.T),r,r,r)],k),B.p,B.o,B.n,0),B.b7,A.az(s.a.c.d,r,r,r,r,m.z,r,r,r)],k),B.a8,B.o,B.n),B.k,r,r,new A.aH(q,r,o,p,r,r,B.t),r,r,r,B.cd,r,r,r)
 o=s.e
@@ -98122,7 +98122,7 @@ r=t.p
 s=A.bN(A.b([A.az(""+s+"/3",m,m,m,m,B.CF,m,m,m),B.c7,A.d2(A.aGx(B.f.aH(0.3),m,s/3,B.Dx),1)],r),B.p,B.o,B.n,0)
 q=n.aav()
 p=A.b([],r)
-if(n.r>0)p.push(A.d2(new A.D6(!1,new A.axZ(n),m,m,m,A.aMl(m,m,m,m,m,m,m,m,m,B.f,m,m,B.pD,m,new A.cM(A.b0(12),B.q),B.DY,m,m,m,m),m,m,!1,m,!0,m,B.a1Z,m),1))
+if(n.r>0)p.push(A.d2(new A.D6(!1,new A.axZ(n),m,m,m,A.aMl(m,m,m,m,m,m,m,m,m,B.f,m,m,B.pD,m,new A.cM(A.b0(12),B.q),B.DY,m,m,m,m),m,m,!1,m,!0,m,B.a2_,m),1))
 if(n.r>0)p.push(B.c7)
 o=A.aG3(B.f,n.w,B.pD,new A.cM(A.b0(12),B.q),m)
 p.push(A.d2(A.Ov(A.az(n.r===2?"Commencer":"Suivant",m,m,m,m,m,m,m,m),n.gajQ(),o),1))
@@ -98136,14 +98136,14 @@ p=m.f
 o=p!=null
 p=o?""+A.de(p)+"/"+A.bX(p)+"/"+A.bw(p):"Choisir une date"
 n=t.p
-return A.bC(A.b([s,B.by,B.a29,B.by,A.eN(!1,l,!0,A.aP(l,A.bN(A.b([B.Ly,B.c7,A.az(p,l,l,l,l,A.bZ(l,l,o?B.f:B.f.aH(0.6),l,l,l,l,l,l,l,l,18,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],n),B.p,B.c5,B.n,0),B.k,l,l,new A.aH(r,l,l,q,l,l,B.t),l,l,l,B.bk,l,l,l),l,!0,l,l,l,l,l,l,l,l,l,l,m.galy(),l,l,l,l,l,l,l)],n),B.p,B.o,B.n)
+return A.bC(A.b([s,B.by,B.a2a,B.by,A.eN(!1,l,!0,A.aP(l,A.bN(A.b([B.Ly,B.c7,A.az(p,l,l,l,l,A.bZ(l,l,o?B.f:B.f.aH(0.6),l,l,l,l,l,l,l,l,18,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],n),B.p,B.c5,B.n,0),B.k,l,l,new A.aH(r,l,l,q,l,l,B.t),l,l,l,B.bk,l,l,l),l,!0,l,l,l,l,l,l,l,l,l,l,m.galy(),l,l,l,l,l,l,l)],n),B.p,B.o,B.n)
 case 2:return m.aaw()
 default:return B.C8}},
 aal(){var s=null,r=A.aP(s,B.LU,B.k,s,s,new A.aH(B.f.aH(0.2),s,s,s,s,s,B.bg),s,s,s,B.bk,s,s,s),q=A.bZ(s,s,B.f.aH(0.6),s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),p=B.f.aH(0.15)
-return A.aLd(s,A.bC(A.b([r,B.by,B.a28,B.by,A.aNx(!1,this.e,A.PE(s,new A.fQ(4,A.b0(16),B.q),s,s,s,s,s,s,!0,s,s,s,s,s,s,p,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,q,"Ton nom complet",s,s,s,s,s,s,s,s,s,!0,!0,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s),s,s,s,s,B.a_V,new A.axQ())],t.p),B.p,B.o,B.n),this.d)},
+return A.aLd(s,A.bC(A.b([r,B.by,B.a29,B.by,A.aNx(!1,this.e,A.PE(s,new A.fQ(4,A.b0(16),B.q),s,s,s,s,s,s,!0,s,s,s,s,s,s,p,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,q,"Ton nom complet",s,s,s,s,s,s,s,s,s,!0,!0,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s),s,s,s,s,B.a_V,new A.axQ())],t.p),B.p,B.o,B.n),this.d)},
 aaw(){var s=null,r=A.aP(s,B.LV,B.k,s,s,new A.aH(B.f.aH(0.2),s,s,s,s,s,B.bg),s,s,s,B.bk,s,s,s),q=t._n
 q=A.a1(new A.a8(B.P7,new A.axT(this),q),q.i("am.E"))
-return A.bC(A.b([r,B.by,B.a25,B.by,A.aqx(B.df,q,16,16)],t.p),B.p,B.o,B.n)},
+return A.bC(A.b([r,B.by,B.a26,B.by,A.aqx(B.df,q,16,16)],t.p),B.p,B.o,B.n)},
 Aa(){var s=0,r=A.N(t.H),q=this,p,o,n
 var $async$Aa=A.O(function(a,b){if(a===1)return A.K(b,r)
 for(;;)switch(s){case 0:n=q.c
@@ -98403,7 +98403,7 @@ p=t._n
 p=A.a1(new A.a8(B.O2,new A.ani(c),p),p.i("am.E"))
 p=A.aqx(B.df,p,12,12)
 o=A.aMl(m,m,m,m,m,m,m,m,m,m,m,m,B.pC,m,new A.cM(A.b0(12),B.q),m,m,m,m,m)
-s=A.aP(m,new A.aO(B.cd,A.bC(A.b([q,B.ht,p,B.bx,A.cr(new A.D6(!0,new A.anj(n,a,c),m,m,m,o,m,m,!1,m,!0,m,new A.ZK(B.a2a,B.LG,o,m,m),m),m,1/0)],g),B.a8,B.o,B.n),m),B.k,m,m,new A.aH(k,m,m,s,r,m,B.t),m,m,m,m,m,m,m)
+s=A.aP(m,new A.aO(B.cd,A.bC(A.b([q,B.ht,p,B.bx,A.cr(new A.D6(!0,new A.anj(n,a,c),m,m,m,o,m,m,!1,m,!0,m,new A.ZK(B.a2b,B.LG,o,m,m),m),m,1/0)],g),B.a8,B.o,B.n),m),B.k,m,m,new A.aH(k,m,m,s,r,m,B.t),m,m,m,m,m,m,m)
 r=n.z0(b,"Donn\xe9es",B.Ln)
 q=A.b0(16)
 p=A.b([new A.bs(0,B.K,B.l.aH(0.05),B.i,10)],i)
@@ -98411,7 +98411,7 @@ p=A.aP(m,n.aau(B.m_,B.bO,new A.ank(a,d),"Effacer toutes les conversations","Supp
 q=n.z0(b,"\xc0 propos",B.Le)
 o=A.b0(16)
 i=A.b([new A.bs(0,B.K,B.l.aH(0.05),B.i,10)],i)
-return A.bC(A.b([l,B.b7,h,B.by,j,B.b7,s,B.by,r,B.b7,p,B.by,q,B.b7,A.aP(m,A.bC(A.b([n.G6(B.Lk,"Version 1.0.0","GEOCOURS"),B.fA,n.G6(B.iJ,"LAHINIRIKO Odilon Michel","D\xe9velopp\xe9 par"),B.fA,n.G6(B.iI,"L1 Pro GEODE - Facult\xe9 des Sciences","Cours de G\xe9ologie")],g),B.p,B.o,B.n),B.k,m,m,new A.aH(k,m,m,o,i,m,B.t),m,m,m,m,m,m,m),B.C7],g),B.a8,B.o,B.n)},
+return A.bC(A.b([l,B.b7,h,B.by,j,B.b7,s,B.by,r,B.b7,p,B.by,q,B.b7,A.aP(m,A.bC(A.b([n.G6(B.Lk,"Version 1.0.0","GEOLO"),B.fA,n.G6(B.iJ,"LAHINIRIKO Odilon Michel","D\xe9velopp\xe9 par"),B.fA,n.G6(B.iI,"L1 Pro GEODE - Facult\xe9 des Sciences","Cours de G\xe9ologie")],g),B.p,B.o,B.n),B.k,m,m,new A.aH(k,m,m,o,i,m,B.t),m,m,m,m,m,m,m),B.C7],g),B.a8,B.o,B.n)},
 z0(a,b,c){var s=null,r=A.cD(c,a.ax.b,s,24),q=a.ok.w
 return A.bN(A.b([r,B.bS,A.az(b,s,s,s,s,q==null?s:q.iT(B.T),s,s,s)],t.p),B.p,B.o,B.n,0)},
 G8(a,b,c,d,e,f){var s=null,r=b.aH(0.1),q=A.b0(10)
@@ -98458,7 +98458,7 @@ A.aEU(s,s,!0,s,new A.anc(this.b),this.a,s,!0,t.z)},
 $S:0}
 A.anc.prototype={
 $1(a){var s=null
-return A.aFm(A.b([A.xv(B.nn,new A.ana(a),s),A.Ov(B.CL,new A.anb(this.a,a),A.aG3(B.bO,s,s,s,s))],t.p),B.a2k,B.a2d)},
+return A.aFm(A.b([A.xv(B.nn,new A.ana(a),s),A.Ov(B.CL,new A.anb(this.a,a),A.aG3(B.bO,s,s,s,s))],t.p),B.a2k,B.a2f)},
 $S:108}
 A.ana.prototype={
 $0(){A.dt(this.a,!1).hU(null)
@@ -98505,7 +98505,7 @@ F(a){var s,r=null,q=A.b([B.cW,B.ed,B.ef],t.O),p=this.e
 p===$&&A.a()
 s=this.f
 s===$&&A.a()
-return A.wX(r,A.aP(r,A.e0(new A.d8(p,!1,A.ald(A.bC(A.b([A.aP(r,B.LY,B.k,r,r,new A.aH(B.f.aH(0.2),r,r,r,r,r,B.bg),r,r,r,B.im,r,r,r),B.by,B.a2f,B.b7,A.az("G\xe9ologie Appliqu\xe9e - L1 Pro GEODE",r,r,r,r,A.bZ(r,r,B.f.aH(0.8),r,r,r,r,r,r,r,r,16,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),B.C7,A.cr(A.aK9(B.f.aH(0.6),3),40,40),B.bx,A.az("Votre assistant scientifique personnel",r,r,r,r,A.bZ(r,r,B.f.aH(0.6),r,r,r,r,r,r,r,r,14,B.q7,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],t.p),B.p,B.c5,B.n),s),r),r,r),B.k,r,r,new A.aH(r,r,r,r,r,new A.cf(B.cS,B.hH,B.O,q,r,r),B.t),r,r,r,r,r,r,r),r,r)}}
+return A.wX(r,A.aP(r,A.e0(new A.d8(p,!1,A.ald(A.bC(A.b([A.aP(r,B.LY,B.k,r,r,new A.aH(B.f.aH(0.2),r,r,r,r,r,B.bg),r,r,r,B.im,r,r,r),B.by,B.a1X,B.b7,A.az("G\xe9ologie Appliqu\xe9e - L1 Pro GEODE",r,r,r,r,A.bZ(r,r,B.f.aH(0.8),r,r,r,r,r,r,r,r,16,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),B.C7,A.cr(A.aK9(B.f.aH(0.6),3),40,40),B.bx,A.az("Votre assistant scientifique personnel",r,r,r,r,A.bZ(r,r,B.f.aH(0.6),r,r,r,r,r,r,r,r,14,B.q7,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],t.p),B.p,B.c5,B.n),s),r),r,r),B.k,r,r,new A.aH(r,r,r,r,r,new A.cf(B.cS,B.hH,B.O,q,r,r),B.t),r,r,r,r,r,r,r),r,r)}}
 A.aB6.prototype={
 $0(){var s=this.a,r=s.d
 r===$&&A.a()
@@ -98548,7 +98548,7 @@ $1(a){return A.aVg(t.a.a(a))},
 $S:605}
 A.UP.prototype={
 F(a){var s=null,r=A.b([B.i5,B.ea,B.GR],t.O),q=A.b0(16),p=A.hB(B.ec,1)
-return A.aP(s,A.bC(A.b([A.aP(s,B.a2e,B.k,s,s,new A.aH(B.aZ,s,s,A.b0(20),s,s,B.t),s,s,s,B.l8,s,s,s),B.bx,A.cr(A.dm(s,s,s,new A.a3i(s),B.Xj),280,s)],t.p),B.p,B.o,B.n),B.k,s,s,new A.aH(s,s,p,q,s,new A.cf(B.bI,B.bH,B.O,r,s,s),B.t),s,s,s,B.cd,s,s,s)}}
+return A.aP(s,A.bC(A.b([A.aP(s,B.a2g,B.k,s,s,new A.aH(B.aZ,s,s,A.b0(20),s,s,B.t),s,s,s,B.l8,s,s,s),B.bx,A.cr(A.dm(s,s,s,new A.a3i(s),B.Xj),280,s)],t.p),B.p,B.o,B.n),B.k,s,s,new A.aH(s,s,p,q,s,new A.cf(B.bI,B.bH,B.O,r,s,s),B.t),s,s,s,B.cd,s,s,s)}}
 A.a3i.prototype={
 aw(a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5=this
 $.V()
@@ -98719,9 +98719,9 @@ r.D2()
 r.aw(a,b)},
 cq(a){return!1}}
 A.Ra.prototype={
-F(a){var s=this,r=null,q=t.O,p=A.b([B.ea,B.oW],q),o=A.b0(16),n=A.hB(B.ec,1),m=A.aP(r,B.a2b,B.k,r,r,new A.aH(B.aZ,r,r,A.b0(20),r,r,B.t),r,r,r,B.l8,r,r,r),l=t.p,k=A.bN(A.b([s.It(B.kJ,B.lY,"GLACE","Solide (< 0\xb0C)"),s.Ur(!0),s.It(B.i0,B.qw,"EAU","Liquide (0-100\xb0C)"),s.Ur(!0),s.It(B.fl,B.qh,"VAPEUR","Gaz (> 100\xb0C)")],l),B.p,B.h4,B.n,0),j=A.bN(A.b([s.Ac("Fusion",80),B.C6,s.Ac("Vaporisation",100)],l),B.p,B.h4,B.n,0),i=A.bN(A.b([s.Ac("Solidification",80),B.C6,s.Ac("Condensation",100)],l),B.p,B.h4,B.n,0),h=B.f.aH(0.7),g=A.b0(12)
+F(a){var s=this,r=null,q=t.O,p=A.b([B.ea,B.oW],q),o=A.b0(16),n=A.hB(B.ec,1),m=A.aP(r,B.a2d,B.k,r,r,new A.aH(B.aZ,r,r,A.b0(20),r,r,B.t),r,r,r,B.l8,r,r,r),l=t.p,k=A.bN(A.b([s.It(B.kJ,B.lY,"GLACE","Solide (< 0\xb0C)"),s.Ur(!0),s.It(B.i0,B.qw,"EAU","Liquide (0-100\xb0C)"),s.Ur(!0),s.It(B.fl,B.qh,"VAPEUR","Gaz (> 100\xb0C)")],l),B.p,B.h4,B.n,0),j=A.bN(A.b([s.Ac("Fusion",80),B.C6,s.Ac("Vaporisation",100)],l),B.p,B.h4,B.n,0),i=A.bN(A.b([s.Ac("Solidification",80),B.C6,s.Ac("Condensation",100)],l),B.p,B.h4,B.n,0),h=B.f.aH(0.7),g=A.b0(12)
 q=A.b([B.RS,B.h5,B.fp],q)
-return A.aP(r,A.bC(A.b([m,B.bx,k,B.ht,j,B.b7,i,B.ht,A.aP(r,A.bN(A.b([B.a1Y,A.d2(A.aP(r,r,B.k,r,r,new A.aH(r,r,r,A.b0(4),r,new A.cf(B.ai,B.ar,B.O,q,r,r),B.t),r,8,B.d0,r,r,r,r),1),B.a23],l),B.p,B.o,B.n,0),B.k,r,r,new A.aH(h,r,r,g,r,r,B.t),r,r,r,B.d_,r,r,r)],l),B.p,B.o,B.n),B.k,r,r,new A.aH(r,r,n,o,r,new A.cf(B.ai,B.ar,B.O,p,r,r),B.t),r,r,r,B.cd,r,r,r)},
+return A.aP(r,A.bC(A.b([m,B.bx,k,B.ht,j,B.b7,i,B.ht,A.aP(r,A.bN(A.b([B.a1Z,A.d2(A.aP(r,r,B.k,r,r,new A.aH(r,r,r,A.b0(4),r,new A.cf(B.ai,B.ar,B.O,q,r,r),B.t),r,8,B.d0,r,r,r,r),1),B.a24],l),B.p,B.o,B.n,0),B.k,r,r,new A.aH(h,r,r,g,r,r,B.t),r,r,r,B.d_,r,r,r)],l),B.p,B.o,B.n),B.k,r,r,new A.aH(r,r,n,o,r,new A.cf(B.ai,B.ar,B.O,p,r,r),B.t),r,r,r,B.cd,r,r,r)},
 It(a,b,c,d){var s=null,r=A.b([new A.bs(2,B.K,a.aH(0.5),B.i,8)],t.V)
 return A.bC(A.b([A.aP(s,A.cD(b,B.f,s,36),B.k,s,s,new A.aH(a,s,s,s,r,s,B.bg),s,s,s,B.cd,s,s,s),B.b7,A.az(c,s,s,s,s,B.nm,s,s,s),A.az(d,s,s,s,s,A.bZ(s,s,B.ee,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.p,B.o,B.n)},
 Ur(a){var s=A.cD(B.L_,B.aZ,null,24),r=t.p
@@ -98733,12 +98733,12 @@ F(a){var s,r,q,p=null,o=t.N,n=t.K,m=A.b([A.an(["name","Oc\xe9ans et mers","perce
 n=A.b0(16)
 o=A.hB(B.ec,1)
 s=t.p
-r=A.b([A.aP(p,B.a2c,B.k,p,p,new A.aH(B.aZ,p,p,A.b0(20),p,p,B.t),p,p,p,B.l8,p,p,p),B.bx,A.bN(A.b([B.Xp,A.d2(A.aP(p,A.az("Pourcentage",p,p,p,p,A.bZ(p,p,B.cx,p,p,p,p,p,p,p,p,12,p,p,B.T,p,p,!0,p,p,p,p,p,p,p,p),B.cn,p,p),B.k,p,p,p,p,p,p,B.d0,p,p,p),1),B.Xr],s),B.p,B.o,B.n,0),B.b7,B.fA,B.dT],s)
+r=A.b([A.aP(p,B.a2e,B.k,p,p,new A.aH(B.aZ,p,p,A.b0(20),p,p,B.t),p,p,p,B.l8,p,p,p),B.bx,A.bN(A.b([B.Xp,A.d2(A.aP(p,A.az("Pourcentage",p,p,p,p,A.bZ(p,p,B.cx,p,p,p,p,p,p,p,p,12,p,p,B.T,p,p,!0,p,p,p,p,p,p,p,p),B.cn,p,p),B.k,p,p,p,p,p,p,B.d0,p,p,p),1),B.Xr],s),B.p,B.o,B.n,0),B.b7,B.fA,B.dT],s)
 B.b.R(r,new A.a8(m,new A.aqp(),t.sn))
 r.push(B.b7)
 r.push(B.fA)
 q=A.b0(8)
-r.push(A.aP(p,A.bN(A.b([B.a1X,A.az("97,5%",p,p,p,p,A.bZ(p,p,B.aZ,p,p,p,p,p,p,p,p,11,p,p,B.T,p,p,!0,p,p,p,p,p,p,p,p),p,p,p)],s),B.p,B.d2,B.n,0),B.k,p,p,new A.aH(B.i5,p,p,q,p,p,B.t),p,p,B.JV,B.bs,p,p,p))
+r.push(A.aP(p,A.bN(A.b([B.a1Y,A.az("97,5%",p,p,p,p,A.bZ(p,p,B.aZ,p,p,p,p,p,p,p,p,11,p,p,B.T,p,p,!0,p,p,p,p,p,p,p,p),p,p,p)],s),B.p,B.d2,B.n,0),B.k,p,p,new A.aH(B.i5,p,p,q,p,p,B.t),p,p,B.JV,B.bs,p,p,p))
 r.push(B.dT)
 q=A.b0(8)
 r.push(A.aP(p,A.bN(A.b([B.a2j,A.az("2,5%",p,p,p,p,A.bZ(p,p,B.aZ,p,p,p,p,p,p,p,p,11,p,p,B.T,p,p,!0,p,p,p,p,p,p,p,p),p,p,p)],s),B.p,B.d2,B.n,0),B.k,p,p,new A.aH(B.p7,p,p,q,p,p,B.t),p,p,p,B.bs,p,p,p))
@@ -104907,9 +104907,9 @@ B.eb=new A.l(1,0.8392156862745098,0.8392156862745098,0.8392156862745098,B.e)
 B.Rm=new A.ce([50,B.i2,100,B.p1,200,B.oU,300,B.fp,350,B.eb,400,B.fl,500,B.p8,600,B.ee,700,B.cx,800,B.cX,850,B.kB,900,B.oF],t.pl)
 B.aM=new A.it(B.Rm,1,0.6196078431372549,0.6196078431372549,0.6196078431372549,B.e)
 B.a_g=new A.t(!0,B.aM,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a2g=new A.cx("GEOCOURS - App \xe9ducative L1 Pro GEODE\nFacult\xe9 des Sciences - Universit\xe9 de Madagascar\nD\xe9velopp\xe9 par LAHINIRIKO Odilon Michel",null,B.a_g,null,null,null,null,null,null,null,null)
-B.NH=s([B.a2l,B.n7,B.a2g],t.p)
-B.Ix=new A.nW(B.al,B.o,B.n,B.a8,null,B.bn,null,0,B.NH,null)
+B.a2c=new A.cx("GEOLO - App \xe9ducative L1 Pro GEODE\nFacult\xe9 des Sciences - Universit\xe9 de Madagascar\nD\xe9velopp\xe9 par LAHINIRIKO Odilon Michel",null,B.a_g,null,null,null,null,null,null,null,null)
+B.NO=s([B.a2l,B.n7,B.a2c],t.p)
+B.Ix=new A.nW(B.al,B.o,B.n,B.a8,null,B.bn,null,0,B.NO,null)
 B.Iy=new A.f1(0,"bluetooth")
 B.kK=new A.f1(1,"wifi")
 B.Iz=new A.f1(2,"ethernet")
@@ -105557,8 +105557,8 @@ B.N_=s([255,216,255],t.Z)
 B.M7=new A.oe(2,"jpeg")
 B.Mi=new A.kV(B.M7,!1,3,"jpeg")
 B.M5=new A.ml(B.N_,B.Mi,3,"jpeg")
-B.NN=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
-B.M1=new A.ml(B.NN,B.qC,4,"webp")
+B.NM=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
+B.M1=new A.ml(B.NM,B.qC,4,"webp")
 B.NF=s([66,77],t.Z)
 B.M8=new A.oe(4,"bmp")
 B.Mg=new A.kV(B.M8,!1,6,"bmp")
@@ -105585,7 +105585,7 @@ B.a4y=new A.hX(0.8875,0.25)
 B.a4w=new A.hX(0.925,0.5)
 B.a4q=new A.hX(0.9625,0.75)
 B.a4r=new A.hX(1,1)
-B.NO=s([B.a4p,B.a4u,B.a4x,B.a4z,B.a4v,B.a4t,B.a4s,B.a4y,B.a4w,B.a4q,B.a4r],A.aE("B<hX>"))
+B.NN=s([B.a4p,B.a4u,B.a4x,B.a4z,B.a4v,B.a4t,B.a4s,B.a4y,B.a4w,B.a4q,B.a4r],A.aE("B<hX>"))
 B.d8=new A.n1(0,"left")
 B.d9=new A.n1(1,"right")
 B.cn=new A.n1(2,"center")
@@ -105785,10 +105785,10 @@ B.Es=new A.bs(0.75,B.K,B.oO,B.h7,1.5)
 B.Pf=s([B.Es],t.V)
 B.fQ=s([B.dl,B.cT,B.hJ,B.hK,B.kc],t.QP)
 B.Po=s([B.e3,B.fa,B.o0,B.hL,B.o1],A.aE("B<jx>"))
-B.NI=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
+B.NH=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
 B.OP=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.NV=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.Ps=s([B.NI,B.OP,B.NV],t.zg)
+B.Ps=s([B.NH,B.OP,B.NV],t.zg)
 B.Pt=s([45,95,45,20,45,90,45,45,45],t.n)
 B.Pv=s([120,120,20,45,20,15,20,120,120],t.n)
 B.ex=new A.iu(0,"controlModifier")
@@ -106466,24 +106466,24 @@ B.N0=s([B.wR,null,null,B.dJ],t.L)
 B.NR=s([B.wS,null,null,B.h1],t.L)
 B.Pa=s([B.wT,null,null,B.dK],t.L)
 B.Pc=s([B.wU,null,null,B.h2],t.L)
-B.NJ=s([B.fY,B.fY,B.iW,null],t.L)
+B.NI=s([B.fY,B.fY,B.iW,null],t.L)
 B.Pr=s([B.iS,null,B.iS,null],t.L)
 B.Og=s([B.cg,null,null,B.dH],t.L)
 B.Oh=s([B.c3,null,null,B.dI],t.L)
 B.Oi=s([B.c4,null,null,B.dJ],t.L)
 B.Pw=s([B.ch,null,null,B.dK],t.L)
 B.Pi=s([B.mb,null,null,B.mi],t.L)
-B.NK=s([B.fX,B.fX,B.iV,null],t.L)
+B.NJ=s([B.fX,B.fX,B.iV,null],t.L)
 B.OL=s([B.b4,null,null,B.dG],t.L)
 B.Oj=s([B.dD,null,null,B.h_],t.L)
 B.NB=s([B.iR,null,null,B.mg],t.L)
 B.Ok=s([B.dE,null,null,B.h1],t.L)
 B.Pj=s([B.fW,null,null,B.mh],t.L)
-B.NL=s([B.fZ,B.fZ,B.iX,null],t.L)
+B.NK=s([B.fZ,B.fZ,B.iX,null],t.L)
 B.Ol=s([B.fU,null,null,B.h0],t.L)
 B.OQ=s([B.fV,null,null,B.h2],t.L)
-B.NM=s([B.d1,B.d1,B.dF,null],t.L)
-B.Rz=new A.ce(["*",B.Ny,"+",B.P9,"-",B.O5,".",B.OA,"/",B.MW,"0",B.Pq,"1",B.Pl,"2",B.NG,"3",B.Px,"4",B.Pk,"5",B.NC,"6",B.N0,"7",B.NR,"8",B.Pa,"9",B.Pc,"Alt",B.NJ,"AltGraph",B.Pr,"ArrowDown",B.Og,"ArrowLeft",B.Oh,"ArrowRight",B.Oi,"ArrowUp",B.Pw,"Clear",B.Pi,"Control",B.NK,"Delete",B.OL,"End",B.Oj,"Enter",B.NB,"Home",B.Ok,"Insert",B.Pj,"Meta",B.NL,"PageDown",B.Ol,"PageUp",B.OQ,"Shift",B.NM],A.aE("ce<k,F<i?>>"))
+B.NL=s([B.d1,B.d1,B.dF,null],t.L)
+B.Rz=new A.ce(["*",B.Ny,"+",B.P9,"-",B.O5,".",B.OA,"/",B.MW,"0",B.Pq,"1",B.Pl,"2",B.NG,"3",B.Px,"4",B.Pk,"5",B.NC,"6",B.N0,"7",B.NR,"8",B.Pa,"9",B.Pc,"Alt",B.NI,"AltGraph",B.Pr,"ArrowDown",B.Og,"ArrowLeft",B.Oh,"ArrowRight",B.Oi,"ArrowUp",B.Pw,"Clear",B.Pi,"Control",B.NJ,"Delete",B.OL,"End",B.Oj,"Enter",B.NB,"Home",B.Ok,"Insert",B.Pj,"Meta",B.NK,"PageDown",B.Ol,"PageUp",B.OQ,"Shift",B.NL],A.aE("ce<k,F<i?>>"))
 B.Sl={coupe_terre:0,structure_terre:1,cycle_eau:2,atmosphere:3,erosion:4,transport:5,sedimentation:6,bassin_versant:7,riviere:8,nappe_phreatique:9,alteration:10,glacier:11,vent_erosion:12,schema_eau:13,paysage:14,delta:15,recif:16,dune:17,fallaise:18,volcan:19}
 B.x8=new A.bR(B.Sl,["page1_img1.png","page1_img2.png","page26_img1.png","page2_img4.png","page3_img3.png","page3_img4.png","page3_img5.png","page4_img4.png","page4_img5.png","page6_img5.png","page7_img5.png","page11_img3.png","page15_img3.png","page17_img1.png","page8_img1.jpeg","page12_img1.jpeg","page27_img1.jpeg","page28_img1.jpeg","page29_img1.jpeg","page30_img1.jpeg"],t.li)
 B.Sk={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
@@ -107023,14 +107023,14 @@ B.hd=new A.jX(null,null)
 B.L9=new A.b1(57777,"MaterialIcons",!1)
 B.Lz=new A.cI(B.L9,null,B.f,null,null)
 B.CK=new A.t(!0,B.f,null,null,null,null,18,B.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a2_=new A.cx("Tableau de bord",null,B.CK,null,null,null,null,null,null,null,null)
-B.O8=s([B.Lz,B.bS,B.a2_],t.p)
+B.a20=new A.cx("Tableau de bord",null,B.CK,null,null,null,null,null,null,null,null)
+B.O8=s([B.Lz,B.bS,B.a20],t.p)
 B.Vc=new A.ta(B.aE,B.o,B.n,B.p,null,B.bn,null,0,B.O8,null)
 B.LN=new A.cI(B.qr,36,B.f,null,null)
 B.b7=new A.cN(null,8,null,null)
 B.a_m=new A.t(!0,B.f,null,null,null,null,28,B.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a20=new A.cx("Param\xe8tres",null,B.a_m,null,null,null,null,null,null,null,null)
-B.Ph=s([B.LN,B.b7,B.a20],t.p)
+B.a21=new A.cx("Param\xe8tres",null,B.a_m,null,null,null,null,null,null,null,null)
+B.Ph=s([B.LN,B.b7,B.a21],t.p)
 B.Iw=new A.nW(B.al,B.h3,B.n,B.a8,null,B.bn,null,0,B.Ph,null)
 B.Tg=new A.aO(B.im,B.Iw,null)
 B.Vd=new A.Eb(!0,!0,B.Z,B.Tg,null)
@@ -107278,8 +107278,8 @@ B.nm=new A.t(!0,null,null,null,null,null,12,B.T,null,null,null,null,null,null,nu
 B.a1W=new A.cx("R\xe9servoir",null,B.nm,null,null,null,null,null,null,null,null)
 B.Xp=new A.cN(120,null,B.a1W,null)
 B.Xq=new A.cN(1/0,1/0,null,null)
-B.a27=new A.cx("%",null,B.nm,B.d9,null,null,null,null,null,null,null)
-B.Xr=new A.cN(60,null,B.a27,null)
+B.a28=new A.cx("%",null,B.nm,B.d9,null,null,null,null,null,null,null)
+B.Xr=new A.cN(60,null,B.a28,null)
 B.Xs=new A.cN(null,10,null,null)
 B.ht=new A.cN(null,12,null,null)
 B.Xt=new A.cN(null,14,null,null)
@@ -107692,31 +107692,31 @@ B.a0u=new A.t(!0,B.a4,null,".AppleSystemUIFont",null,null,null,null,null,null,nu
 B.a0Q=new A.t(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.j,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.YQ=new A.t(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.j,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.a1V=new A.en(B.a_I,B.ZB,B.a_J,B.a0a,B.Ze,B.Zn,B.ZW,B.a05,B.a_8,B.a0x,B.YJ,B.Z0,B.a0u,B.a0Q,B.YQ)
-B.a1X=new A.cx("\ud83d\udca7 Eau sal\xe9e",null,B.jA,null,null,null,null,null,null,null,null)
+B.a_0=new A.t(!0,B.f,null,null,null,null,42,B.T,null,4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a1X=new A.cx("GEOLO",null,B.a_0,null,null,null,null,null,null,null,null)
+B.a1Y=new A.cx("\ud83d\udca7 Eau sal\xe9e",null,B.jA,null,null,null,null,null,null,null,null)
 B.CI=new A.t(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a1Y=new A.cx("\u2744\ufe0f 0\xb0C",null,B.CI,null,null,null,null,null,null,null,null)
-B.a1Z=new A.cx("Retour",null,null,null,null,null,null,null,null,null,null)
+B.a1Z=new A.cx("\u2744\ufe0f 0\xb0C",null,B.CI,null,null,null,null,null,null,null,null)
+B.a2_=new A.cx("Retour",null,null,null,null,null,null,null,null,null,null)
 B.CL=new A.cx("Supprimer",null,null,null,null,null,null,null,null,null,null)
 B.a0g=new A.t(!0,null,null,null,null,null,15,B.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a21=new A.cx("LAHINIRIKO Odilon Michel",null,B.a0g,null,null,null,null,null,null,null,null)
-B.a22=new A.cx("Assistant IA",null,null,null,null,null,null,null,null,null,null)
-B.a23=new A.cx("100\xb0C \ud83d\udca8",null,B.CI,null,null,null,null,null,null,null,null)
-B.a24=new A.cx("Poser une question",null,null,null,null,null,null,null,null,null,null)
+B.a22=new A.cx("LAHINIRIKO Odilon Michel",null,B.a0g,null,null,null,null,null,null,null,null)
+B.a23=new A.cx("Assistant IA",null,null,null,null,null,null,null,null,null,null)
+B.a24=new A.cx("100\xb0C \ud83d\udca8",null,B.CI,null,null,null,null,null,null,null,null)
+B.a25=new A.cx("Poser une question",null,null,null,null,null,null,null,null,null,null)
 B.nl=new A.t(!0,B.f,null,null,null,null,24,B.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a25=new A.cx("Choisis ta couleur pr\xe9f\xe9r\xe9e",null,B.nl,B.cn,null,null,null,null,null,null,null)
+B.a26=new A.cx("Choisis ta couleur pr\xe9f\xe9r\xe9e",null,B.nl,B.cn,null,null,null,null,null,null,null)
 B.nn=new A.cx("Annuler",null,null,null,null,null,null,null,null,null,null)
-B.a26=new A.cx("\xcates-vous s\xfbr de vouloir supprimer toutes les conversations ?",null,null,null,null,null,null,null,null,null,null)
-B.a28=new A.cx("Comment tu t'appelles ?",null,B.nl,B.cn,null,null,null,null,null,null,null)
-B.a29=new A.cx("Quelle est ta date de naissance ?",null,B.nl,B.cn,null,null,null,null,null,null,null)
-B.a2a=new A.cx("Choisir une couleur personnalis\xe9e",null,null,null,null,null,null,null,null,null,null)
+B.a27=new A.cx("\xcates-vous s\xfbr de vouloir supprimer toutes les conversations ?",null,null,null,null,null,null,null,null,null,null)
+B.a29=new A.cx("Comment tu t'appelles ?",null,B.nl,B.cn,null,null,null,null,null,null,null)
+B.a2a=new A.cx("Quelle est ta date de naissance ?",null,B.nl,B.cn,null,null,null,null,null,null,null)
+B.a2b=new A.cx("Choisir une couleur personnalis\xe9e",null,null,null,null,null,null,null,null,null,null)
 B.CH=new A.t(!0,B.f,null,null,null,null,14,B.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a2b=new A.cx("CHANGEMENT DE PHASE DE L'EAU",null,B.CH,null,null,null,null,null,null,null,null)
-B.a2c=new A.cx("R\xc9PARTITION DE L'EAU SUR TERRE",null,B.CH,null,null,null,null,null,null,null,null)
-B.a2d=new A.cx("Supprimer historique",null,null,null,null,null,null,null,null,null,null)
+B.a2d=new A.cx("CHANGEMENT DE PHASE DE L'EAU",null,B.CH,null,null,null,null,null,null,null,null)
+B.a2e=new A.cx("R\xc9PARTITION DE L'EAU SUR TERRE",null,B.CH,null,null,null,null,null,null,null,null)
+B.a2f=new A.cx("Supprimer historique",null,null,null,null,null,null,null,null,null,null)
 B.ZA=new A.t(!0,B.f,null,null,null,null,16,B.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a2e=new A.cx("LE CYCLE DE L'EAU",null,B.ZA,null,null,null,null,null,null,null,null)
-B.a_0=new A.t(!0,B.f,null,null,null,null,42,B.T,null,4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a2f=new A.cx("GEOCOURS",null,B.a_0,null,null,null,null,null,null,null,null)
+B.a2g=new A.cx("LE CYCLE DE L'EAU",null,B.ZA,null,null,null,null,null,null,null,null)
 B.a2i=new A.cx("Appliquer",null,null,null,null,null,null,null,null,null,null)
 B.a2j=new A.cx("\ud83d\udeb0 Eau douce",null,B.jA,null,null,null,null,null,null,null,null)
 B.a2k=new A.cx("\xcates-vous s\xfbr de vouloir supprimer l'historique des conversations?",null,null,null,null,null,null,null,null,null,null)
